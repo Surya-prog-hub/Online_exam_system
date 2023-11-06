@@ -11,6 +11,9 @@
     function Home(){
         return(
             <>
+            <div>
+                <h1 className={style.title}>Welcome to our website!</h1>
+            </div>
                <div id={style.header}>
                    <div id={style.headerHeadingBox}>
                         <h3>Online Exam System</h3> 
